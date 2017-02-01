@@ -1,0 +1,93 @@
+/*
+ * 
+ */
+/*==========================================================================
+   Navigation Styling
+  ========================================================================== */
+.nav-bottom-border{
+	position: relative;
+	&:after{
+		position: absolute;
+		content: "";
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: 1px;
+		background: @small-menu-border;
+	}
+}
+
+
+.navbar-default{
+	/* navbar-default start */
+	background-color: #fff;
+	border: none;
+	border-radius: 0;
+	min-height: 0;
+	margin: 0;
+	.container-fluid{
+		padding: 0;
+	}
+	.navbar-header{
+		/* navbar-header start */
+		background: #000;
+		width: 19.50%;
+		padding: 8px 0;
+		.navbar-brand{
+			padding: 0;
+			margin: 0 0 0 40px;
+			img{
+				margin-top: 8px;
+			}
+		}
+	}
+	.navbar-nav{
+		/* navbar-nav start */
+			margin-left: 70px;
+			font-family: @M-font;
+		li{
+			/* navbar-nav li startr */
+			margin: 0 20px;
+			text-transform: uppercase;
+			p{
+				padding: 20px 0;
+				margin-right: 15px;
+				color: @a;
+				i{
+					margin-left: 10px;
+					font-size: 20px;
+				}
+			}
+			a{
+				padding: 0;
+				margin: 20px 0;
+				color: @a;
+				display: block;
+				.transition;
+				&:hover{
+					color: @DarkOrange;
+					border-bottom: 1px solid @DarkOrange;
+				}
+			}
+			.manu-option{
+				/* manu-option start */
+				margin-left: 200px;
+				margin-right: 20px;
+				cursor: pointer;
+				p{
+					color: @text-color;
+					padding: 0;
+					margin: 20px 0;
+				}
+			}
+			.active{
+				color: @DarkOrange;
+				border-bottom: 1px solid @DarkOrange;
+			}
+		}
+	}
+}
+/*
+ * 
+ */
+/* End Navigation Styling  */

@@ -1,0 +1,223 @@
+/* ==========================================================================
+   Footer styling
+   ========================================================================== */
+
+	footer{
+		background: @white;
+		.container-fluid{
+			padding-left: 0;
+			padding-right: 0;
+		}
+		.rex-block{
+			/* footer rex-block start */
+			padding: 0;
+			.rex-contact-info{
+				/* rex-contact-info start */
+				padding: 100px 0;
+				text-align: center;
+				background: @rex-contact-info-color;
+				.home-address{
+					/* home-address start */
+					padding-bottom: 38px;
+					color: @white;
+					font-size: 12px;
+					font-family: @M-font;
+				}
+				.phone-number{
+					/* phone-number start */
+					font-size: 12px;
+					color: @white;
+					text-transform: uppercase;
+					font-family: @M-font;
+					padding-bottom: 18px;
+					a{
+						color: @DarkOrange;
+						&:hover{
+							text-decoration: none;
+						}
+					}
+				}
+				.email-address{
+					/* email-address start */
+					color: @white;
+					font-size: 12px;
+					text-transform: uppercase;
+					font-family: @M-font;
+					a{
+						color: @white;
+						&:hover{
+							text-decoration: none;
+						}
+					}
+				}
+				a{
+					img{
+						padding-bottom: 18px;
+					}
+				}
+			}
+			.rex-opening-hours{
+				/* rex-opening-hours start */
+				// padding: 140px 0 0;
+				padding: 0;
+				.rex-offers{
+					/* rex-offers start */
+					background: url(../img/footer-img/rex-offers-bg-2.png) @rex-offers-bg;
+					background-repeat: no-repeat;
+					background-position: center right;
+					// margin: 0 0 0 83px;
+					overflow: hidden;
+					padding: 90px 10px 50px;
+					text-align: center;
+					// .rex-timing-hours-1{
+					// 	/* rex-timing-hours-1 start */
+					// 	// float: left;
+					// 	text-align: center;
+					// 	// width: 217.5px;
+					// 	width: 100%;
+					// 	img{
+					// 		padding-bottom: 10px;
+					// 	}
+					// 	p{
+					// 		font-family: @M-font;
+					// 		font-size: 12px;
+					// 		text-transform: uppercase;
+					// 	}
+					// 	span{
+					// 		font-size: 24px;
+					// 		font-family: @pacifico-font;
+					// 		line-height: 20px;
+					// 	}
+					// }
+					// .rex-timing-hours-2{
+					// 	/* rex-timing-hours-2 start */
+					// 	// float: left;
+					// 	// padding: 0 25px;
+					// 	padding: 50px 0 0;
+					// 	text-align: center;
+					// 	h5{
+					// 		text-transform: uppercase;
+					// 		padding: 8px 0;
+					// 	}
+					// }
+					// .rex-timing-hours-3{
+					// 	/* rex-timing-hours-3 start */
+					// 	// float: left;
+					// 	// padding: 0 42px;
+					// 	padding: 20px 0;
+					// 	text-align: center;
+					// 	h5{
+					// 		text-transform: uppercase;
+					// 		padding: 8px 0;
+					// 	}
+					// }
+					button{
+						/* foooter button style start */
+						padding: 25px 40px;
+						font-size: 14px;
+						// margin-top: -20px;
+						border-radius: 0;
+						color: @DarkOrange;
+						font-family: @M-font;
+						text-transform: uppercase;
+						background: rgba(255, 255, 255, 0.9);
+						box-shadow: inset 0px 0px 0px 6px rgba(255, 255, 255,1),inset 0px 0px 0px 8px #fca768;
+						opacity: .9;
+						overflow: hidden;
+						margin: 0 auto;
+						cursor: default;
+						.transition;
+						&:hover{
+							background: @DarkOrange;
+							color: @white;
+							opacity: 1;
+							box-shadow: inset 0px 0px 0px 6px rgba(255, 255, 255, 0.9),inset 0px 0px 0px 8px @white;
+						}
+						&:focus{
+							outline: none;
+						}
+					}
+
+					ul{
+						li{
+							padding-bottom: 50px;
+							h5{
+								line-height: 26px
+							}
+							.highlights-font{
+								font-family: @pacifico-font;
+								font-size: 24px;
+							}
+						}
+					}
+
+					
+
+				}
+				.copyright{
+					margin: 53px 0 0 83px;
+				}
+			}
+			.rex-newsletter{
+				/* rex-newsletter start */
+				padding: 50px 12px 0;
+				.rex-newsletter-section{
+					/* rex-newsletter-section start */
+					padding: 15px;
+					background: @rex-newsletter-bg;
+					margin-bottom: 45px;
+					.rex-newsletter-contant{
+						/* rex-newsletter-contant start */
+						padding: 30px 22px; 
+						border: 3px solid @white;
+						h4{
+							text-transform: uppercase;
+							text-align: center;
+						}
+						p{
+							padding-bottom: 15px;
+						}
+						.form-group{
+							/* form-group start */
+							.input-group{
+								.form-control{
+									border-radius: 0;
+									border: 0;
+									box-shadow: none;
+								}
+								.input-group-addon{
+									background: @white;
+									border-radius: 0;
+									border: none;
+									cursor: pointer;
+									i{
+										color: @DarkOrange;
+									}
+								}
+							}
+						}
+					}
+				}
+				p{
+					a{
+						text-decoration: none;
+						font-size: 16px;
+						font-family: @L-font;
+					}
+				}
+			}
+			.copyright{
+				padding: 5% 0;
+				text-align: center;
+				p{
+					a{
+						color: @DarkOrange;
+						&:hover{
+							text-decoration: none;
+						}
+					}
+				}
+			}
+		}
+	}
+

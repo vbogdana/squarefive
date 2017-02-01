@@ -1,0 +1,103 @@
+/*
+ * 
+ */
+/* ==========================================================================
+   Base Styling
+   ========================================================================== */
+
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400|Montserrat:400,700|Pacifico);
+
+/*
+ * base styling
+ */
+body{
+	font-size: @body-font;
+	font-family: @L-font;
+	font-weight: 300;
+	background: @body-color;
+}
+
+h1,h2,h3,h4,h5,h6{
+	margin: 0
+}
+
+h1{
+	font-family: @M-font;
+	color: @title-h1;
+	font-size: @h1-size ;
+	line-height: @h1-line-height;
+	text-transform: uppercase;
+}
+
+h2{
+	font-size: @h2-size;
+	font-family: @M-font;
+	color: @title-h2;
+	line-height: @h2-line-height;
+	text-transform: uppercase;
+}
+
+h4{
+	font-family: @M-font;
+	font-size: @h4-size;
+	line-height: @h4-line-height
+}
+
+h5{
+	font-family: @M-font;
+	font-size: @h5-size;
+	line-height: @h5-line-height;
+	color: @title-h5;
+}
+
+p{
+	color: @text-color;
+	font-family: @L-font;
+	font-weight: 300;
+	font-size: @body-font;
+	line-height: @line-height;
+	color: @text-color;
+	margin: 0;
+}
+
+ul{
+	.ul-remove-style;
+}
+
+
+a, a:active, a:focus, a:active {
+	text-decoration: none ;
+	font-size: 12px;
+	font-family: @M-font;
+	font-weight: 400;
+}
+
+span{
+	color: @DarkOrange;
+}
+
+
+.clearfix{
+	clear: both;
+}
+
+.btn-default{
+	border-radius: 0;
+	border: none;
+}
+
+.no-padding{
+	padding: 0;
+}
+
+
+.browserupgrade {
+	margin: 0.2em 0;
+	background: #ccc;
+	color: #000;
+	padding: 0.2em 0;
+}
+/*
+ * 
+ */
+/* End base styling */

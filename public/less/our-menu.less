@@ -1,0 +1,162 @@
+/* ==========================================================================
+   Our menu
+   ========================================================================== */
+   
+	.rex-our-menu-slider{
+		/* rex-our-menu-slider start */
+		background: url(http://placehold.it/1920x506) scroll 0 0;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		text-align: center;
+		min-height: 250px;
+		position: relative;
+		// margin-top: 25px;
+		&:before{
+			/* rex-our-menu-slider before start */
+			content: "";
+			position: absolute;
+			right: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			background: rgba(0, 0, 0, 0.5);
+		}
+		.rex-our-menu-text{
+			.slide-overlay;
+		}
+	}
+	.rex-our-menu{
+		/* rex-our-menu start */
+		padding-top: 140px;
+		padding-bottom: 135px;
+		display: block;
+		.select-row{
+			/* select row start */
+			margin-bottom: 15px;
+			&:last-child{
+				margin-bottom: 0;
+			}
+		}
+		.rex-block{
+			/* rex-our-menu rex-block */
+			background: #fff;
+			padding-left: 0;
+			padding-right: 0;
+			padding-top: 30px;
+			padding-bottom: 30px;
+
+		}
+		.rex-dinner-cover-page{
+			/* rex-dinner-cover-page */
+			background: @portfolio-description-bg-color;
+			display: block;
+			text-align: center;
+			min-height: 580px;
+			&:before{
+				/* rex-dinner-cover-page before */
+				content: "";
+				position: absolute;
+				left: 30px;
+				top: 30px;
+				right: 30px;
+				bottom: 30px;
+				border: 4px solid @white;
+				color: @white;
+			}
+			.rex-cover-page-contant{
+				/* rex-cover-page-contant start */
+				position: absolute;
+				right: 0;
+				top: 50%;
+				transform: translateY(-50%);
+				img{
+					padding-bottom: 20px;
+				}
+				h2{
+					font-family: @M-font;
+				}
+				span{
+					font-family: @M-font;
+					font-size: 13px;
+				}
+				p{
+					// padding: 15px 72px 0;
+					padding: 15px 44px 0;
+				}
+
+				.rebbon-style{
+					/* rebbon-style */
+					background: url(../img/foods-menu/ribbon.png);
+					background-repeat: no-repeat;
+					position: absolute;
+					left: 15px;
+					// top: -231px;
+					top: -115px;
+					height: 114px;
+					width: 224px;
+					padding-top: 35px;
+					p{
+						padding: 0;
+						font-family: @M-font;
+						font-size: 12px;
+						text-transform: uppercase;
+						color: @white;
+					}
+					ul{
+						/* robbon-style ul start */
+						li{
+							display: inline-block;
+							margin-right: 5px;
+							i{
+								color: @white;
+							}
+						}
+					}
+				}
+			}
+		}
+		.rex-menu-list{
+			/* rex-menu-list start */
+			background: url(../img/foods-menu/foods-menu-bg.png);
+			background-repeat: no-repeat;
+			background-position: right bottom;
+			height: auto;
+			text-align: center;
+			display: block;
+			overflow: hidden;
+			border: 4px solid @foods-manu-border-color;
+			margin: 0 15px;
+			// padding-top: 65px;
+			padding-top: 90px;
+			// padding-bottom: 38px;
+			padding-bottom: 100px;
+			ul{
+				/* rex-menu-list ul start */
+				li{
+					padding: 0 24px 32px;
+					&:last-child{
+						padding-bottom: 0;
+					}
+					.food-menu-title{
+						h5{
+							text-transform: uppercase;
+							color: @foods-font-color;
+							.dotted{
+								width: 80px;
+								height: 1px;
+								display: inline-block;
+								border-bottom: 2px dotted @rex-right-menu-border ;
+								margin: 0 20px;
+							}
+						}
+						span{
+							color: @foods-manu-border-color;
+						}
+						p{
+							color:@foods-color;
+						}
+					}
+				}
+			}
+		}
+	}

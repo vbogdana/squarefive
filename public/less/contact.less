@@ -1,0 +1,278 @@
+/* ==========================================================================
+   Contact section style
+   ========================================================================== */
+
+.rex-contact-slider{
+	/* rex-contact-slider start */
+	background: url(http://placehold.it/1920x483) scroll 0 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	text-align: center;
+	min-height: 250px;
+	position: relative;
+	// margin-top: 25px;
+	&:before{
+		/* rex-contact-slider start */
+		content: "";
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		background: rgba(0, 0, 0, 0.5);
+	}
+	.rex-contact-text{
+		/* rex-contact-text start */
+		.slide-overlay
+	}
+}
+
+.rex-contact-section{
+	/* rex-contact-section start */
+	background: @contact-section-bg;
+	padding: 50px 0;
+	text-align: center;
+	.rex-block{
+		/* rex-contact-section rex-block start */
+		background: @white;
+		p{
+			padding: 0 10px 20px;
+		}
+		.contact-home-addres, .contact-tel-address, .contact-email-addres{
+			/* contact-home-addres, .contact-tel-address, .contact-email-addres start */
+			color: @contact-home-addres-color;
+			font-family: @M-font;
+			font-size: 12px;
+			line-height: 18px;
+			text-transform: uppercase;
+			a{
+				/* contact-home-addres, .contact-tel-address, .contact-email-addres a start */
+				color: @contact-home-addres-color;
+				.transition;
+				&:hover{
+					color: @DarkOrange;
+				}
+			}
+		}
+		.contact-media-link{
+			/* contact-media-link start */
+			padding-top: 20px;
+			ul{
+				/* contact-media-link ul start */
+				li{
+					display: inline-block;
+					border: 1px solid @contact-media-link-i-border-color;
+					margin-right: 15px;
+					.transition;
+					&:hover{
+						border: 1px solid @white;
+						i{
+							color: @white;
+						}
+						.fa-twitter{
+							background: @fa-twitter-color;
+						}
+						.fa-facebook{
+							background: @fa-facebook;
+						}
+						.fa-youtube-play{
+							background: @fa-youtube-play;
+						}
+						.fa-google-plus{
+							background: @fa-google-plus;
+						}
+					}
+					a{
+						/* contact-media-link ul li a start */
+						i{
+							font-size: 15px;
+							color: @contact-media-link-i-color;
+							min-width: 35px;
+							min-height: 35px;
+							padding: 10px;
+							.transition;
+						}
+					}
+				}
+			}
+		}
+		.google-map{
+			/* google-map start */
+			padding-top: 15px;
+			.select-iframe{
+				width: 100%;
+			}
+		}
+		.rex-form-contant{
+			/* rex-form-contant start */
+			padding: 30px 0 50px;
+			overflow: hidden;
+			background: @white;
+			h2{
+				text-transform: uppercase;
+				font-size: 24px;
+				padding-bottom: 35px;
+				font-family: @M-font;
+
+			}
+			.mail-status{
+				text-transform: uppercase;
+				font-size: 24px;
+				padding-bottom: 35px;
+				font-family: @M-font;
+				color: @DarkOrange;
+			}
+			.form-group{
+				/* form-group */
+				margin-bottom: 0;
+				padding: 0;
+				.input-group{
+					/* input-group start */
+					padding: 0 0 29px;
+					width: 100%;
+					.form-control{
+						border-radius: 0;
+						box-shadow: none;
+						border: 1px solid @input-border-color;
+						// border-right: none;
+						background: @input-bg;
+						padding: 10px 26px;
+						height: 50px;
+						-webkit-appearance: none;
+					}
+					input.form-control{
+						border-right: none;
+					}
+					.select-cotrol{
+						border-right: 0;
+					}
+					input.form-control:focus + .input-group-addon{
+						/* input i color focus active */
+						color: @DarkOrange;
+					}
+					textarea.form-control:focus + .select-group{
+						color: @DarkOrange;
+					}
+					.input-group-addon{
+						border-radius: 0;
+						background: @input-bg;
+						border: 1px solid @input-border-color;
+						border-left: 0;
+					}
+				}
+				::-webkit-input-placeholder{
+					.placeholder
+				}
+				:-moz-placeholder{
+					.placeholder
+				}
+				::-moz-placeholder{
+					.placeholder
+				}
+				:-ms-input-placeholder{
+					/* ios support */
+					.placeholder
+				}
+				textarea{
+					/*  text area style */
+					width: 100%;
+					border-radius: 0;
+					box-shadow: none;
+					border: 1px solid @input-border-color;
+					background: @input-bg;
+					padding: 24px 26px;
+					min-height: 150px;
+					-webkit-appearance: none;
+					position: relative;
+				}
+				.select-group{
+					/* select-group style */
+					position: absolute;
+					right: 14px;
+					top: 18px;
+					z-index: 8;
+				}
+			}
+		}
+
+		.from-btn-section > .from-btn{
+			/* from-btn-section > .from-btn start */
+			position: relative;
+			z-index: 1;
+		}
+		.from-btn{
+			background: @DarkOrange;
+		}
+		button{
+			/* button start */
+			background: none;
+			display: inline-block;
+			font-size: 18px;
+			font-family: @M-font;
+			text-transform: uppercase;
+			border: none;
+			text-decoration: none;
+			outline: none;
+			position: relative;
+			-webkit-transition: all 0.5s;
+			-moz-transition: all 0.5s;
+			transition: all 0.5s;
+		}
+		button:after {
+			/* button after start */
+			content: '';
+			position: absolute;
+			z-index: -1;
+			-webkit-transition: all 0.5s;
+			-moz-transition: all 0.5s;
+			transition: all 0.5s;
+		}
+		.btn-class-1{
+			/* btn-class-1 start */
+			padding: 24px 98px;
+			font-size: 18px;
+			font-family: @M-font;
+			text-transform: uppercase;
+			width: 100%;
+			color: @white;
+			position: relative;
+			-webkit-transition: all 0.5s;
+			-moz-transition: all 0.5s;
+			transition: all 0.5s;
+		}
+		.btn-class-2{}
+
+		.btn-class-2:after {
+			width: 0%;
+			height: 100%;
+			top: 0;
+			left: 0;
+			background: @submit-bg;
+		}
+
+		.btn-class-2:hover {
+			color: @white;
+		}
+
+		.btn-class-2:hover:after {
+			width: 100%;
+		}
+
+		.feature.map {
+			/* feature.map  */
+			iframe {
+				border:0;
+				filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+ */
+				filter: gray; /* IE6-9 */
+				-webkit-filter: grayscale(99%); /* Chrome 19+ & Safari 6+ */
+				-webkit-backface-visibility: hidden;  /* Fix for transition flickering */
+			}
+		}
+	}
+	.contact-add-padding{
+		padding-bottom: 100px;
+	}
+}
+
+
+

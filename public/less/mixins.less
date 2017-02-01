@@ -1,0 +1,443 @@
+
+/* ==========================================================================
+   Mixins start
+   ========================================================================== */
+
+/*
+ * common style
+ */
+.ul-remove-style{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.remove-padding-style{
+    padding: 0;
+}
+
+.remove-padding-left-style{
+    padding-left: 0;
+}
+
+.remove-padding-right-style{
+    padding-right: 0;
+}
+
+.remove-padding-bottom-style{
+    padding-bottom: 0;
+}
+
+.add-padding{
+    padding-bottom: 70px;
+}
+
+/* body background style right */
+
+.body-right-bg{
+    position: relative;
+    &:before{
+        content: "";
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 35.8%;
+        height: 100%;
+        background: @section-before-color;
+    }
+}
+
+/* body background style left */
+
+.body-left-bg{
+    position: relative;
+    &:before{
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 35.8%;
+        height: 100%;
+        background: @section-before-color;
+    }
+}
+
+.clearfix{
+    clear: both;
+}
+
+    //add your menu background color if no work background color use (!important) this code...
+.nav-background-color{
+    background: #fff;
+}
+
+
+/* transition Effect */
+
+.transition{
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+
+/* About img before border */
+
+.slide-img-style{
+    position: relative;
+	&:before{
+        content: "";
+        position: absolute;
+        left: 15px;
+        top: 15px;
+        right: 15px;
+        bottom: 15px;
+        border: 1px dotted @img-border-color;
+	}
+}
+
+/* form img before border */
+
+.form-img-style{
+    position: relative;
+    &:before{
+        content: "";
+        position: absolute;
+        left: 15px;
+        top: 15px;
+        right: 15px;
+        bottom: 15px;
+        border: 1px dotted @form-img-border-color;
+    }
+}
+
+/* active icon */
+
+.active{
+    color: @active-color;
+}
+
+/* triangle Up & Down style */
+
+.triangle-up{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 15px 27px 15px;
+    border-color: transparent transparent @white transparent;
+    position: relative;
+    top: -23px;
+    left: 13px;
+    display: block;
+    .transition;
+}
+.triangle-up:after{
+    position: absolute;
+    content: "";
+    left: -12px;
+    top: 2px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 12px 24px 12px;
+    border-color: transparent transparent @white transparent;
+}
+
+.triangle-down{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 27px 15px 0 15px;
+    border-color: @white transparent transparent transparent;
+    position: relative;
+    top: 23px;
+    left: 13px;
+    display: block;
+    .transition;
+}
+.triangle-down:after{
+    position: absolute;
+    content: "";
+    left: -12px;
+    top: -26px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 24px 12px 0 12px;
+    border-color: @triangle-bg-color transparent transparent transparent;
+}
+
+/* placeholder text color */
+
+.placeholder{
+    color: @text-color;
+    font-size: 12px;
+    font-family: @M-font;
+}
+
+/* Full width Overlay */
+
+.overlay{
+    position: relative;
+    &:before{
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.7);
+    }
+}
+
+/* Gallery-items Img before border */
+
+.gallery-items-img{
+    position: relative;
+    &:before{
+        content: "";
+        position: absolute;
+        left: 15px;
+        top: 15px;
+        right: 15px;
+        bottom: 15px;
+        border: 1px dotted @gallery-before-border;
+    }
+}
+
+/* testimonial img style */
+
+.rotate-style{
+    border: 1px solid @cookers-border-color;
+    float: left;
+    margin-right: 38px;
+    transform: rotate(45deg);
+    padding: 2px;
+    height: 78px;
+    width: 78px;            
+    .rex-img{
+        float: left;
+        display: block;
+        overflow: hidden;
+        margin-top: -14px;
+        margin-left: -14px;
+        img{
+            transform: rotate(-45deg);
+        }
+    }
+}
+
+/* events-contant style */
+
+.rex-events-contant-border{
+    position: relative;
+    &:before{
+        content: "";
+        position: absolute;
+        left: 15px;
+        top: 15px;
+        right: 15px;
+        bottom: 15px;
+        border: 3px solid @rex-single-events-border-color ;
+        .transition;
+    }
+}
+
+/* upcoming-events Img before border */
+
+.upcoming-events-img-border{
+    position: relative;
+    &:before{
+        content: "";
+        position: absolute;
+        left: 15px;
+        top: 15px;
+        right: 15px;
+        bottom: 15px;
+        border: 1px dotted @gallery-before-border;
+    }
+}
+
+.triangle-up-small{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 15px 14px 0 14px;
+    border-color: @about-hover-color transparent transparent transparent;
+    position: relative;
+    // top: 13px;
+    top: 30px;
+    // left: 50%;
+    left: 0;
+    // margin-left: -14px;
+    z-index: 6;
+    .transition
+}
+
+.triangle-down-small{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 14px 15px 14px;
+    border-color: transparent transparent @about-hover-color transparent;
+    position: relative;
+    // top: -33px;
+    top: -30px;
+    // left: 50%;
+    left: 0;
+    // margin-left: -14px;
+    z-index: 6;
+    .transition
+}
+
+
+
+/* Single-events style */
+
+.rex-single-events-border{
+    position: relative;
+    &:before{
+        content: "";
+        position: absolute;
+        left: 15px;
+        top: 15px;
+        right: 15px;
+        bottom: 15px;
+        border: 3px solid @rex-single-events-border-color ;
+    }
+}
+
+.events-rotate-style{
+    border: 1px solid @cookers-border-color;
+    transform: rotate(45deg);
+    padding: 2px;
+    height: 80px;
+    width: 80px;   
+    .rex-img{
+        display: block;
+        overflow: hidden;
+        margin-top: -13px;
+        margin-left: -13px;
+        img{
+            transform: rotate(-45deg);
+        }
+    }
+}
+
+.slide-overlay{
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    h1{
+        position: relative;
+        color: #fff;
+        font-family: @pacifico-font;
+        text-transform: none;
+        font-size: 35px;
+        font-weight: 400;
+    }    
+}
+
+/* events style */
+
+.rex-our-events-border{
+    position: relative;
+    &:before{
+        content: "";
+        position: absolute;
+        left: 15px;
+        top: 15px;
+        right: 15px;
+        bottom: 15px;
+        border: 3px solid @rex-single-events-border-color ;
+        .transition;
+    }
+}
+
+/* about-page style */
+
+.rex-passion-img-border{
+    position: relative;
+    &:before{
+        content: "";
+        position: absolute;
+        left: 15px;
+        top: 15px;
+        right: 15px;
+        bottom: 15px;
+        border: 1px dotted @story-contant-img-border ;
+    }
+}
+
+/* about-page style */
+
+.rex-head-chef-border{
+    position: relative;
+    &:before{
+        content: "";
+        position: absolute;
+        left: 15px;
+        top: 15px;
+        right: 15px;
+        bottom: 15px;
+        border: 4px solid @rex-head-chef-before-border ;
+    }
+}
+
+// parallax class
+
+.parallax-class{
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+}
+
+// vertical-align class
+
+.vertical-align{
+    vertical-align: top;
+    i{
+        background: @input-bg;
+    }
+}
+
+
+.datepicker{
+    .datepicker-days{
+        .table-condensed{
+            .day{
+                cursor: pointer;
+                font-family: @M-font;
+            }
+        }
+    }
+}
+
+.datepicker{
+    border-radius: 0;
+    border-color: @small-menu-border;
+    .day{
+        color: @impurt-color;
+    }
+    .active{
+        color: @DarkOrange;
+    }
+}
+table{
+    padding: 20px;
+    display: block;
+    .prev, .next{
+        cursor: pointer;
+    }
+}
+span.total {
+  color: #fff;
+}
+
+
+/*
+ * 
+ */
+/* End mixins*/ 
