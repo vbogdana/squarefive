@@ -21,13 +21,13 @@
         <!-- main-slider imgs -->
         <div id="main-slider" class="rex-owl-carousel">
             <div>
-                <img src="img/slider/slider2.jpg" alt="Ambijent Square five">
+                <img src="img/slider/slider2.jpg" alt="Ambijent Square Five">
             </div>
             <div>
-                <img src="img/slider/slider3.jpg" alt="Atmosfera Square five">
+                <img src="img/slider/slider3.jpg" alt="Atmosfera Square Five">
             </div>
             <div>
-                <img src="img/slider/slider4.jpg" alt="Hrana Square five">
+                <img src="img/slider/slider4.jpg" alt="Hrana Square Five">
             </div>
         </div>
     </div><!-- /.rex-main-slider close -->
@@ -73,7 +73,7 @@
                         </div>
                         <div id="collapseTwo" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingTwo">
                             <div class="panel-body">
-                                <p>Na ovom zanimljivom mestu možete uživati u vrhunskoj hrani koju za vas pripremaju nasi kuvari,po pristupačnim cenama.</p>
+                                <p>Na ovom zanimljivom mestu možete uživati u vrhunskoj hrani koju za vas pripremaju naši kuvari,bpo pristupačnim cenama.</p>
                             </div>
                         </div>
                     </div>
@@ -88,7 +88,7 @@
                         </div>
                         <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                             <div class="panel-body">
-                                <p>Takodje možete bodriti vaš omlijeni tim,uz izbor od preko 50 vrsta piva iz 9 različitih zemalja Evrope.</p>
+                                <p>Takodje možete bodriti vaš omlijeni tim, uz izbor od preko 50 vrsta piva iz 9 različitih zemalja Evrope.</p>
                             </div>
                         </div>
                     </div>
@@ -98,7 +98,7 @@
                                 <i class="fa fa-caret-down"></i>
                             </div>
                             <h4 class="panel-title">
-                                Pop-Rock pab
+                                Pop-Rock pub
                             </h4>
                         </div>
                         <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
@@ -130,25 +130,25 @@
                 <!-- rex-about rex-block tab-navigation -->
                 <ul id="tab-navigation">
                     <li  class="active">
-                        <h4>6.2. Ponedeljak-Ladies Night</h4>
+                        <h4>6.2. Ponedeljak - Ladies Night</h4>
                         <p>Leave your boyfriend at home! 
-                        <br><h5>Rezervacije:(064) 555 5005</h5></p>
+                        <br><h5>Rezervacije: (064) 555 5005</h5></p>
                         <div class="about-img  visible-xs visible-sm hidden-md hidden-lg">
                             <img class="img-responsive" src="img/events/ladiesnight.jpg" alt="Restoran Square Five">
                         </div>
                     </li>
                     <li>
-                        <h4>7.2. Utorak-Bend Profesori</h4>
+                        <h4>7.2. Utorak - Bend Profesori</h4>
                         <p>Fenomenalni Profesori nas uče novim i podsećaju na stare hitove. 
-                        <br><h5>Rezervacije:(064) 555 5005</h5></p>
+                        <br><h5>Rezervacije: (064) 555 5005</h5></p>
                         <div class="about-img  visible-xs visible-sm hidden-md hidden-lg">
                             <img class="img-responsive" src="img/events/acoustictrio.jpg" alt="Sportski bar Square Five">
                         </div>
                     </li>
                     <li>
-                        <h4>9.2. Euroleague-Red Star vs. CSK</h4>
-                        <p>Zvezdin put ka TOP 8 se nastavlja,a ovog puta ispit je najteži-gostovanje aktuelnom prvaku evrope.
-                        <br><h5>Rezervacije:(064) 555 5005</h5></p>
+                        <h4>9.2. Euroleague - Red Star vs. CSK</h4>
+                        <p>Zvezdin put ka TOP 8 se nastavlja, a ovog puta ispit je najteži - gostovanje aktuelnom prvaku Evrope.
+                        <br><h5>Rezervacije: (064) 555 5005</h5></p>
                         <div class="about-img  visible-xs visible-sm hidden-md hidden-lg">
                             <img class="img-responsive" src="img/events/sport.jpg" alt="Pop Rock Pab Square Five">
                         </div>
@@ -188,7 +188,7 @@
             <div><a name="novmeni"></a></div>
             <div class="col-md-12 rex-block">
                 <!-- portfolio title -->
-                <h2>Square five- NEW MENU</h2>
+                <h2>Square Five - NOVI MENI</h2>
             </div>
         </div>
         <!-- rex-portfolio-list -->
@@ -203,7 +203,6 @@
                         <li><i class="fa fa-star"></i></li>
                         <li><i class="fa fa-star"></i></li>
                         <li><i class="fa fa-star"></i></li>
-
                     </ul>
                     <p class="dollar-amount">NISKO KALORIČNO</p>
                     <span class="triangle-up-small"></span>
@@ -225,7 +224,6 @@
                         <li><i class="fa fa-star"></i></li>
                         <li><i class="fa fa-star"></i></li>
                         <li><i class="fa fa-star"></i></li>
-
                     </ul>
                     <p class="dollar-amount">PREPORUKA KUĆE</p>
                     <span class="triangle-up-small col-lg-none"></span>
@@ -295,12 +293,12 @@
                             <img src="img/foods-menu/logohrana.png" alt="logo hrana">
                             <h2>Square Five Meni</h2>
                             <span>10:00 - 23:00</span>
-                            <p>Restoraunt and sports pab</p>
+                            <p>Restaurant and sports pub</p>
                         </div>
                         <!-- menu-item -->
                         <div class="menu-item">
                             <img src="img/foods-menu/logohrana.png" alt="logo hrana">
-                            <h2>Doručak i Snek meni</h2>
+                            <h2>Doručak i Snek Meni</h2>
 
                             <p>U skveru postoji veliki izbor snekova odaberite neki uz vaše omiljeno pivo.</p>
                         </div>
@@ -313,7 +311,7 @@
                         </div>
                         <div class="menu-item">
                             <img src="img/foods-menu/logohrana.png" alt="logo hrana">
-                            <h2>Glavna Jela</h2>
+                            <h2>Glavna jela</h2>
 
                             <p>Nezaboravni ukusi za prave gastronome.</p>
                         </div>
@@ -321,7 +319,7 @@
                             <img src="img/foods-menu/logohrana.png" alt="logo hrana">
                             <h2>Burger Meni</h2>
 
-                            <p>Izaberite neki od naših burgera,verujte po tome smo poznati!</p>
+                            <p>Izaberite neki od naših burgera, verujte po tome smo poznati!</p>
                         </div>
                         <div class="menu-item">
                             <img src="img/foods-menu/logohrana.png" alt="logo hrana">
@@ -392,8 +390,8 @@
                         <img class="img-responsive" src="img/gallery/gallery1.jpg" alt="Square Five Galerija slika">
                         <div class="gallery-img-overlay">
                             <div class="gallery-overlay-text">
-                                <h4>Nezaboravan provod u skveru</h4>
-                                <p>Ovako smo se provodili predhodnih dana. <br></p>
+                                <h4>Nezaboravan provod u Square-u</h4>
+                                <p>Ovako smo se provodili prethodnih dana. <br></p>
                             </div>
                         </div>
                     </div>
@@ -402,8 +400,8 @@
                         <img class="img-responsive" src="img/gallery/gallery2.jpg" alt="Square Five Galerija slika">
                         <div class="gallery-img-overlay">
                             <div class="gallery-overlay-text">
-                                <h4>Nezaboravan provod u skveru</h4>
-                                <p>Ovako smo se provodili predhodnih dana. <br></p>
+                                <h4>Nezaboravan provod u Square-u</h4>
+                                <p>Ovako smo se provodili prethodnih dana. <br></p>
                             </div>
                         </div>
                     </div>
@@ -412,8 +410,8 @@
                         <img class="img-responsive" src="img/gallery/gallery3.jpg" alt="Square Five Galerija slika">
                         <div class="gallery-img-overlay">
                             <div class="gallery-overlay-text">
-                                <h4>Nezaboravan provod u skveru</h4>
-                                <p>Ovako smo se provodili predhodnih dana. <br></p>
+                                <h4>Nezaboravan provod u Square-u</h4>
+                                <p>Ovako smo se provodili prethodnih dana. <br></p>
                             </div>
                         </div>
                     </div>
@@ -422,8 +420,8 @@
                         <img class="img-responsive" src="img/gallery/gallery4.jpg" alt="Square Five Galerija slika">
                         <div class="gallery-img-overlay">
                             <div class="gallery-overlay-text">
-                                <h4>Nezaboravan provod u skveru</h4>
-                                <p>Ovako smo se provodili predhodnih dana. <br></p>
+                                <h4>Nezaboravan provod u Square-u</h4>
+                                <p>Ovako smo se provodili prethodnih dana. <br></p>
                             </div>
                         </div>
                     </div>
@@ -432,8 +430,8 @@
                         <img class="img-responsive" src="img/gallery/gallery5.jpg" alt="Square Five Galerija slika">
                         <div class="gallery-img-overlay">
                             <div class="gallery-overlay-text">
-                                <h4>Nezaboravan provod u skveru</h4>
-                                <p>Ovako smo se provodili predhodnih dana. <br></p>
+                                <h4>Nezaboravan provod u Square-u</h4>
+                                <p>Ovako smo se provodili prethodnih dana. <br></p>
                             </div>
                         </div>
                     </div>
@@ -442,8 +440,8 @@
                         <img class="img-responsive" src="img/gallery/gallery6.jpg" alt="Square Five Galerija slika">
                         <div class="gallery-img-overlay">
                             <div class="gallery-overlay-text">
-                                <h4>Nezaboravan provod u skveru</h4>
-                                <p>Ovako smo se provodili predhodnih dana. <br></p>
+                                <h4>Nezaboravan provod u Square-u</h4>
+                                <p>Ovako smo se provodili prethodnih dana. <br></p>
                             </div>
                         </div>
                     </div>
@@ -452,8 +450,8 @@
                         <img class="img-responsive" src="img/gallery/gallery7.jpg" alt="Square Five Galerija slika">
                         <div class="gallery-img-overlay">
                             <div class="gallery-overlay-text">
-                                <h4>Nezaboravan provod u skveru</h4>
-                                <p>Ovako smo se provodili predhodnih dana. <br></p>
+                                <h4>Nezaboravan provod u Square-u</h4>
+                                <p>Ovako smo se provodili prethodnih dana. <br></p>
                             </div>
                         </div>
                     </div>
@@ -462,8 +460,8 @@
                         <img class="img-responsive" src="img/gallery/gallery8.jpg" alt="Square Five Galerija slika">
                         <div class="gallery-img-overlay">
                             <div class="gallery-overlay-text">
-                                <h4>Nezaboravan provod u skveru</h4>
-                                <p>Ovako smo se provodili predhodnih dana. <br></p>
+                                <h4>Nezaboravan provod u Square-u</h4>
+                                <p>Ovako smo se provodili prethodnih dana. <br></p>
                             </div>
                         </div>
                     </div>
@@ -472,8 +470,8 @@
                         <img class="img-responsive" src="img/gallery/gallery9.jpg" alt="Square Five Galerija slika">
                         <div class="gallery-img-overlay">
                             <div class="gallery-overlay-text">
-                                <h4>Nezaboravan provod u skveru</h4>
-                                <p>Ovako smo se provodili predhodnih dana. <br></p>
+                                <h4>Nezaboravan provod u Square-u</h4>
+                                <p>Ovako smo se provodili prethodnih dana. <br></p>
                             </div>
                         </div>
                     </div>
@@ -482,8 +480,8 @@
                         <img class="img-responsive" src="img/gallery/gallery10.jpg" alt="Square Five Galerija slika">
                         <div class="gallery-img-overlay">
                             <div class="gallery-overlay-text">
-                                <h4>Nezaboravan provod u skveru</h4>
-                                <p>Ovako smo se provodili predhodnih dana. <br></p>
+                                <h4>Nezaboravan provod u Square-u</h4>
+                                <p>Ovako smo se provodili prethodnih dana. <br></p>
                             </div>
                         </div>
                     </div>
@@ -492,8 +490,8 @@
                         <img class="img-responsive" src="img/gallery/gallery11.jpg" alt="Square Five Galerija slika">
                         <div class="gallery-img-overlay">
                             <div class="gallery-overlay-text">
-                                <h4>Nezaboravan provod u skveru</h4>
-                                <p>Ovako smo se provodili predhodnih dana. <br></p>
+                                <h4>Nezaboravan provod u Square-u</h4>
+                                <p>Ovako smo se provodili prethodnih dana. <br></p>
                             </div>
                         </div>
                     </div>
@@ -502,8 +500,8 @@
                         <img class="img-responsive" src="img/gallery/gallery12.jpg" alt="Square Five Galerija slika">
                         <div class="gallery-img-overlay">
                             <div class="gallery-overlay-text">
-                                <h4>Nezaboravan provod u skveru</h4>
-                                <p>Ovako smo se provodili predhodnih dana. <br></p>
+                                <h4>Nezaboravan provod u Square-u</h4>
+                                <p>Ovako smo se provodili prethodnih dana. <br></p>
                             </div>
                         </div>
                     </div>

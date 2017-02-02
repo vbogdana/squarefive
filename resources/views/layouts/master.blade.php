@@ -11,7 +11,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
         
         @section('title-meta')
-        <title>Square Five Bar & Restaurant- Trg Republike 5</title>
+        <title>Square Five Bar & Restaurant - Trg Republike 5</title>
         <meta property="fb:pages" content="square.five.belgrade">
         <meta name="description" content="Square Five Bar & Restaurant jedinstven koncept pop-rock paba, sportskog bara i restorana na jednom mestu u samom srcu Beograda na adresi Trg Republike 5. Info: (064) 555 5005 ">
         <meta property="og:locale" content="en_US">
@@ -50,7 +50,7 @@
     <!-- header start -->
     <header class="container-fluid" id="sticky-menu">
         <!-- Start Main menu -->
-        <div class="row small-menu nav-container nav-bottom-border select-row nav-background-color">
+        <div class="row small-menu nav-container select-row nav-background-color">
             <div class="col-md-2 col-sm-12 no-padding rex-logo select-col background-color">
                 <!-- Our logo -->
                 <a href="index.html">
@@ -74,11 +74,11 @@
                     </div>
                 </div>
             </div><!-- col-md-3 close -->
-            <div class="col-md-5 col-sm-5 rex-main-menu">
+            <div class="col-md-6 col-sm-5 rex-main-menu">
                 <!-- large-menu > bottom menu list -->
                 <div class="rex-main-inline-manu large-only">
                     <ul id="navigation" class="slimmenu rex-navigatin">
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html">Početna</a></li>
                         <li><a href="#onama">O nama</a></li>
                         <li><a href="#novmeni">Novi meni</a></li>
                         <li><a href="#meni">Meni</a></li>
@@ -87,7 +87,7 @@
                     </ul>
                 </div>
             </div><!-- /.col-md-4 close -->
-            <div class="col-md-3 col-sm-4 search">
+            <div class="col-md-2 col-sm-4 search">
                
                 <div class="rex-show-menu">
                     <!-- Show and close option -->
@@ -119,15 +119,15 @@
                             <li>
                                 <img src="img/footer-img/spoon-icon.png" alt="">
                                 <h5>Tradicionalna i internacionalna kuhinja</h5>
-                                <span class="highlights-font hidden">Cekamo vas</span>
+                                <span class="highlights-font hidden">Čekamo vas</span>
                             </li>
                             <li>
-                                <h5>Ponedeljak- Cetvrtak</h5>
+                                <h5>Ponedeljak - Četvrtak</h5>
                                 <p> <span>10:00 – 01:00</span></p>
                                 
                             </li>
                             <li class="select-li">
-                                <h5>Petak-Subota</h5>
+                                <h5>Petak - Subota</h5>
                                 <p> <span>10:00 – 02:00</span></p>
                                 
                             </li>
@@ -182,7 +182,6 @@
     <script src="js/vendor/jquery.slimmenu.min.js"></script>
     <script src="js/vendor/jquery.stellar.min.js"></script>
     <script src="js/vendor/owl.carousel.min.js"></script>
-    <script src="js/vendor/retina.min.js"></script>
     <script src="js/vendor/share.js"></script>
     <script src="js/vendor/jquery.prettyPhoto.js"></script>
     <script src="js/vendor/slick.min.js"></script>

@@ -182,7 +182,7 @@ jQuery(document).ready(function($) {
   // Copy each item inside tab-nav for showing on Smaller Devices
   var menuList;
   $.each( $('#foods-menu-nav div.menu-item'), function(index, el){
-    menuList = $('#foods-menu-list div.rex-menu-list.item').eq(0).clone();
+    menuList = $('#foods-menu-list div.rex-menu-list.item').eq(index).clone();
     menuList.removeClass('hidden').addClass('visible-xs visible-sm');
     $(el).append(menuList);
   });

@@ -1,4 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400|Montserrat:400,700|Pacifico);
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400|Roboto:400,700&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Pacifico&subset=latin-ext');
 /*------------------------------------------------------------------
 
 	[Master Stylesheet]
@@ -78,7 +79,7 @@
  */
 body {
   font-size: 16px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   background: #ececec;
 }
@@ -91,7 +92,7 @@ h6 {
   margin: 0;
 }
 h1 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #ffffff;
   font-size: 60px;
   line-height: 72px;
@@ -99,24 +100,24 @@ h1 {
 }
 h2 {
   font-size: 30px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #1e3d1c;
   line-height: 48px;
   text-transform: uppercase;
 }
 h4 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   line-height: 30px;
 }
 h5 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 15px;
   line-height: 23px;
   color: #1f1f1f;
 }
 p {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -134,7 +135,7 @@ a:focus,
 a:active {
   text-decoration: none ;
   font-size: 12px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
 }
 span {
@@ -309,7 +310,7 @@ span {
 .placeholder {
   color: #545454;
   font-size: 12px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 /* Full width Overlay */
 .overlay {
@@ -514,7 +515,7 @@ span {
 }
 .datepicker .datepicker-days .table-condensed .day {
   cursor: pointer;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .datepicker {
   border-radius: 0;
@@ -650,7 +651,7 @@ header .rex-contact-phone {
   padding: 12px 10px 0;
 }
 header .rex-contact-phone p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 12px;
   display: inline-block;
 }
@@ -667,7 +668,7 @@ header .rex-contact-phone .media-link {
   /* media link start */
   color: #1f1f1f;
   font-size: 12px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin-left: 10px;
   text-transform: uppercase;
 }
@@ -706,6 +707,7 @@ header .rex-contact-phone .media-link .icon-link:hover i {
 }
 header .rex-contact-phone .phone-addres-header {
   text-transform: uppercase;
+  margin-left: 10px;
 }
 header .rex-contact-phone a {
   text-decoration: none;
@@ -770,7 +772,7 @@ header .search .rex-show-menu {
 header .search .rex-show-menu button {
   /*  rex-show-menu start */
   color: #545454;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   background: none;
   box-shadow: none;
@@ -965,7 +967,7 @@ div.rex-social-profiles ul.social-profiles-links li a i {
 .navbar-default .navbar-nav {
   /* navbar-nav start */
   margin-left: 70px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .navbar-default .navbar-nav li {
   /* navbar-nav li startr */
@@ -1040,7 +1042,7 @@ div.rex-social-profiles ul.social-profiles-links li a i {
   /* slider a style */
 }
 .rex-slider .rex-slider-text h1 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 36px;
   color: #ffffff;
 }
@@ -1068,7 +1070,7 @@ div.rex-social-profiles ul.social-profiles-links li a i {
   display: inline-block;
   padding: 15px 30px;
   font-size: 18px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   text-decoration: none;
   outline: none;
@@ -1091,7 +1093,7 @@ div.rex-social-profiles ul.social-profiles-links li a i {
   /* select-btn-1 start */
   padding: 15px 30px;
   font-size: 18px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   color: #1f1f1f;
   text-decoration: none;
@@ -1335,7 +1337,7 @@ div.rex-social-profiles ul.social-profiles-links li a i {
   padding-bottom: 10px;
 }
 .rex-portfolio .rex-portfolio-items .portfolio-description .dollar-amount {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
 }
 .rex-portfolio .rex-portfolio-items .portfolio-description ul li {
@@ -1430,7 +1432,7 @@ div.rex-social-profiles ul.social-profiles-links li a i {
 .rex-dinner-menu .rex-cover-page-contant .cover-page-text span {
   padding: 5px 0;
   display: block;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   text-transform: uppercase;
 }
@@ -1506,7 +1508,7 @@ div.rex-social-profiles ul.social-profiles-links li a i {
 }
 .rex-dinner-menu .rebbon-style p {
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 12px;
   text-transform: uppercase;
   color: #ffffff;
@@ -1614,7 +1616,7 @@ div.rex-social-profiles ul.social-profiles-links li a i {
   /* rex-title start */
 }
 .rex-testimonial .rex-block .testimonial-description .rex-title p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 12px;
   text-transform: uppercase;
 }
@@ -1631,7 +1633,7 @@ div.rex-social-profiles ul.social-profiles-links li a i {
 }
 .rex-testimonial .rex-block .testimonial-description .rex-Preparation ul li p span {
   color: #1f1f1f;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .rex-testimonial .rex-block .testimonial-description img {
   margin: 0 auto;
@@ -1644,7 +1646,7 @@ div.rex-social-profiles ul.social-profiles-links li a i {
 .rex-testimonial .rex-block .testimonial-description .social-network a {
   margin: 0;
   color: #545454;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-size: 16px;
   display: inline-block;
@@ -1745,7 +1747,7 @@ div.rex-social-profiles ul.social-profiles-links li a i {
 }
 .rex-testimonial .rex-cookers ul li p {
   text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 12px;
 }
 .rex-testimonial .rex-cookers ul li .testimonial-description-2 {
@@ -1820,7 +1822,7 @@ div.rex-social-profiles ul.social-profiles-links li a i {
   font-weight: 300;
   color: #545454;
   font-size: 16px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   -webkit-transition: all .5s;
   -o-transition: all .5s;
   transition: all .5s;
@@ -1955,7 +1957,7 @@ div.pp_default .pp_content_container .pp_details {
   border-right: 0;
   padding: 20px;
   background: #fbfbfb;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 12px;
   color: #545454;
 }
@@ -1985,7 +1987,7 @@ div.pp_default .pp_content_container .pp_details {
   background: none;
   display: inline-block;
   font-size: 18px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   border: none;
   text-decoration: none;
@@ -2008,7 +2010,7 @@ div.pp_default .pp_content_container .pp_details {
   /* btn-class-1 start */
   padding: 24px 30px;
   font-size: 18px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   width: 100%;
   color: #ffffff;
@@ -2168,7 +2170,7 @@ div.pp_default .pp_content_container .pp_details {
 .rex-review {
   text-align: center;
   padding: 100px 0;
-  background: #ffffff;
+  background: #ececec;
 }
 .rex-review h2 {
   font-size: 24px;
@@ -2229,7 +2231,7 @@ div.pp_default .pp_content_container .pp_details {
 }
 .rex-review .rex-block .rex-title .rex-title-img p {
   text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 12px;
 }
 .rex-review .rex-block .rex-title h5 {
@@ -2250,7 +2252,7 @@ div.pp_default .pp_content_container .pp_details {
 }
 .rex-review .rex-block span {
   font-size: 12px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #545454;
   text-transform: uppercase;
   font-style: italic;
@@ -2262,7 +2264,7 @@ div.pp_default .pp_content_container .pp_details {
 .rex-review .rex-block p span {
   font-weight: 600;
   color: #1e3d1c;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 /*
  * rex-upcoming-events Start
@@ -2306,7 +2308,7 @@ div.pp_default .pp_content_container .pp_details {
   display: block;
   color: #545454;
   font-size: 12px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   -webkit-transition: all .5s;
   -o-transition: all .5s;
@@ -2329,7 +2331,7 @@ div.pp_default .pp_content_container .pp_details {
 .rex-upcoming-events .rex-block .rex-events-contant .rex-events a {
   font-size: 16px;
   color: #545454;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   position: relative;
   text-decoration: none;
   -webkit-transition: all .5s;
@@ -2391,7 +2393,7 @@ div.pp_default .pp_content_container .pp_details {
   display: block;
   color: #545454;
   font-size: 16px !important;
-  font-family: 'Lato', sans-serif !important;
+  font-family: 'Open Sans', sans-serif !important;
   text-transform: capitalize !important;
   -webkit-transition: all .5s;
   -o-transition: all .5s;
@@ -2417,7 +2419,7 @@ div.pp_default .pp_content_container .pp_details {
   font-weight: 300;
   color: #545454;
   font-size: 16px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   -webkit-transition: all .5s;
   -o-transition: all .5s;
   transition: all .5s;
@@ -2547,7 +2549,7 @@ div.datepicker.datepicker-dropdown {
   -webkit-transition: all .5s;
   -o-transition: all .5s;
   transition: all .5s;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   color: #545454;
 }
@@ -2586,7 +2588,7 @@ div.datepicker.datepicker-dropdown {
   padding-bottom: 15px;
   display: block;
   color: #1f1f1f;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 12px;
 }
 .rex-single-events .rex-single-events-text .bottom-p {
@@ -2597,7 +2599,7 @@ div.datepicker.datepicker-dropdown {
   /* highlights-text start */
   padding-bottom: 0;
   font-size: 16px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   color: #1f1f1f;
   text-transform: none;
@@ -2605,7 +2607,7 @@ div.datepicker.datepicker-dropdown {
 .rex-single-events .rex-single-events-text .highlights-color-text {
   /* highlights-color-text start */
   color: #1e3d1c;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   text-transform: none;
   text-decoration: underline;
@@ -2630,7 +2632,7 @@ div.datepicker.datepicker-dropdown {
   font-weight: 300;
   color: #545454;
   font-size: 16px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   -webkit-transition: all .5s;
   -o-transition: all .5s;
   transition: all .5s;
@@ -2777,7 +2779,7 @@ div.datepicker.datepicker-dropdown {
 .rex-event-contact .rex-block .rex-title span {
   /*  rex-title span start */
   font-size: 12px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #545454;
   text-transform: uppercase;
 }
@@ -2854,23 +2856,23 @@ div.datepicker.datepicker-dropdown {
 .rex-event-contact .event-froms .rex-form-contant .form-group ::-webkit-input-placeholder {
   color: #545454;
   font-size: 12px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .rex-event-contact .event-froms .rex-form-contant .form-group :-moz-placeholder {
   color: #545454;
   font-size: 12px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .rex-event-contact .event-froms .rex-form-contant .form-group ::-moz-placeholder {
   color: #545454;
   font-size: 12px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .rex-event-contact .event-froms .rex-form-contant .form-group :-ms-input-placeholder {
   /* ios support */
   color: #545454;
   font-size: 12px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .rex-event-contact .event-froms .rex-form-contant .form-group textarea {
   /* textarea start */
@@ -2901,7 +2903,7 @@ div.datepicker.datepicker-dropdown {
   background: none;
   display: inline-block;
   font-size: 18px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   border: none;
   text-decoration: none;
@@ -2924,7 +2926,7 @@ div.datepicker.datepicker-dropdown {
   /* btn-class-1 start */
   padding: 24px 30px;
   font-size: 18px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   width: 100%;
   color: #ffffff;
@@ -3036,7 +3038,7 @@ div.datepicker.datepicker-dropdown {
 .rex-contact-section .rex-block .contact-email-addres {
   /* contact-home-addres, .contact-tel-address, .contact-email-addres start */
   color: #292929;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 12px;
   line-height: 18px;
   text-transform: uppercase;
@@ -3118,13 +3120,13 @@ div.datepicker.datepicker-dropdown {
   text-transform: uppercase;
   font-size: 24px;
   padding-bottom: 35px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .rex-contact-section .rex-block .rex-form-contant .mail-status {
   text-transform: uppercase;
   font-size: 24px;
   padding-bottom: 35px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #1e3d1c;
 }
 .rex-contact-section .rex-block .rex-form-contant .form-group {
@@ -3168,23 +3170,23 @@ div.datepicker.datepicker-dropdown {
 .rex-contact-section .rex-block .rex-form-contant .form-group ::-webkit-input-placeholder {
   color: #545454;
   font-size: 12px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .rex-contact-section .rex-block .rex-form-contant .form-group :-moz-placeholder {
   color: #545454;
   font-size: 12px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .rex-contact-section .rex-block .rex-form-contant .form-group ::-moz-placeholder {
   color: #545454;
   font-size: 12px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .rex-contact-section .rex-block .rex-form-contant .form-group :-ms-input-placeholder {
   /* ios support */
   color: #545454;
   font-size: 12px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .rex-contact-section .rex-block .rex-form-contant .form-group textarea {
   /*  text area style */
@@ -3218,7 +3220,7 @@ div.datepicker.datepicker-dropdown {
   background: none;
   display: inline-block;
   font-size: 18px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   border: none;
   text-decoration: none;
@@ -3241,7 +3243,7 @@ div.datepicker.datepicker-dropdown {
   /* btn-class-1 start */
   padding: 24px 98px;
   font-size: 18px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   width: 100%;
   color: #ffffff;
@@ -3341,14 +3343,14 @@ div.datepicker.datepicker-dropdown {
   padding: 0 13px;
   padding-bottom: 20px;
   font-size: 12px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 300;
   text-transform: uppercase;
 }
 .rex-reservation-section .rex-block p a {
   color: #1e3d1c;
   font-size: 18px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-decoration: underline;
   margin-left: 5px;
   display: block;
@@ -3386,7 +3388,7 @@ div.datepicker.datepicker-dropdown {
   padding: 10px 26px;
   height: 50px;
   -webkit-appearance: none;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .rex-reservation-section .rex-block .rex-form-contant .form-group .input-group input.form-control:focus + .input-group-addon {
   /* input i color focus active */
@@ -3402,22 +3404,22 @@ div.datepicker.datepicker-dropdown {
 .rex-reservation-section .rex-block .rex-form-contant .form-group ::-webkit-input-placeholder {
   color: #545454;
   font-size: 12px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .rex-reservation-section .rex-block .rex-form-contant .form-group :-moz-placeholder {
   color: #545454;
   font-size: 12px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .rex-reservation-section .rex-block .rex-form-contant .form-group ::-moz-placeholder {
   color: #545454;
   font-size: 12px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .rex-reservation-section .rex-block .rex-form-contant .form-group :-ms-input-placeholder {
   color: #545454;
   font-size: 12px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .rex-reservation-section .rex-block .rex-form-contant .form-group textarea {
   /* textarea style start */
@@ -3446,7 +3448,7 @@ div.datepicker.datepicker-dropdown {
   background: none;
   display: inline-block;
   font-size: 18px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   border: none;
   text-decoration: none;
@@ -3469,7 +3471,7 @@ div.datepicker.datepicker-dropdown {
   /* btn-class-1 start */
   padding: 24px 30px;
   font-size: 18px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   width: 100%;
   color: #ffffff;
@@ -3511,7 +3513,7 @@ div.datepicker.datepicker-dropdown {
   font-size: 14px;
   color: #292929;
   padding-bottom: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
 }
 .rex-reservation-section .rex-block .rex-reservation-opening-hours .rex-offers .rex-timing-hours-1 span {
@@ -3538,7 +3540,7 @@ div.datepicker.datepicker-dropdown {
   font-size: 14px;
   border-radius: 0;
   color: #1e3d1c;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   background: rgba(255, 255, 255, 0.9);
   box-shadow: inset 0px 0px 0px 6px #ffffff, inset 0px 0px 0px 8px #fca768;
@@ -3695,10 +3697,10 @@ div.datepicker.datepicker-dropdown {
   padding-bottom: 20px;
 }
 .rex-our-menu .rex-dinner-cover-page .rex-cover-page-contant h2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .rex-our-menu .rex-dinner-cover-page .rex-cover-page-contant span {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 13px;
 }
 .rex-our-menu .rex-dinner-cover-page .rex-cover-page-contant p {
@@ -3717,7 +3719,7 @@ div.datepicker.datepicker-dropdown {
 }
 .rex-our-menu .rex-dinner-cover-page .rex-cover-page-contant .rebbon-style p {
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 12px;
   text-transform: uppercase;
   color: #ffffff;
@@ -3906,7 +3908,7 @@ h2 {
   color: #545454;
   padding: 5px 0;
   display: block;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 12px;
   color: #1f1f1f;
   -webkit-transition: all .5s;
@@ -4008,7 +4010,7 @@ h2 {
   font-weight: 300;
   color: #545454;
   font-size: 16px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   -webkit-transition: all .5s;
   -o-transition: all .5s;
   transition: all .5s;
@@ -4394,11 +4396,11 @@ h2 {
 .rex-head-chef-section .head-chef-list ul li .head-chef-list-text p {
   text-transform: uppercase;
   font-size: 12px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .rex-head-chef-section .head-chef-list ul li .head-chef-list-text a {
   font-size: 14px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #545454;
 }
 .rex-head-chef-section .head-chef-list ul li .head-chef-list-text a i {
@@ -4531,7 +4533,7 @@ h2 {
   font-weight: 300;
   color: #545454;
   font-size: 16px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   -webkit-transition: all .5s;
   -o-transition: all .5s;
   transition: all .5s;
@@ -4722,14 +4724,14 @@ footer .rex-block .rex-contact-info .home-address {
   padding-bottom: 38px;
   color: #ffffff;
   font-size: 12px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 footer .rex-block .rex-contact-info .phone-number {
   /* phone-number start */
   font-size: 12px;
   color: #ffffff;
   text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   padding-bottom: 18px;
 }
 footer .rex-block .rex-contact-info .phone-number a {
@@ -4743,7 +4745,7 @@ footer .rex-block .rex-contact-info .email-address {
   color: #ffffff;
   font-size: 12px;
   text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 footer .rex-block .rex-contact-info .email-address a {
   color: #ffffff;
@@ -4773,7 +4775,7 @@ footer .rex-block .rex-opening-hours .rex-offers button {
   font-size: 14px;
   border-radius: 0;
   color: #1e3d1c;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   background: rgba(255, 255, 255, 0.9);
   box-shadow: inset 0px 0px 0px 6px #ffffff, inset 0px 0px 0px 8px #fca768;
@@ -4849,7 +4851,8 @@ footer .rex-block .rex-newsletter .rex-newsletter-section .rex-newsletter-contan
 footer .rex-block .rex-newsletter p a {
   text-decoration: none;
   font-size: 16px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  color: #2c5c29;
 }
 footer .rex-block .copyright {
   padding: 5% 0;
@@ -4954,7 +4957,7 @@ footer .rex-block .copyright p a:hover {
   }
   header .rex-contact-phone .media-link {
     /* media-link start */
-    margin-top: 12px;
+    //margin-top: 12px;
   }
   header .rex-main-menu {
     /* rex-main-men start */
@@ -4991,7 +4994,7 @@ footer .rex-block .copyright p a:hover {
     display: none;
   }
   header .large-menu .rex-logo .large-logo {
-    padding: ;
+    padding: 10.5% 10px;
     width: 100%;
     max-height: 300px;
   }
@@ -5010,7 +5013,7 @@ footer .rex-block .copyright p a:hover {
   }
   header .large-menu .search {
     padding: 0;
-    margin-top: 65px;
+    margin-top: 56px;
   }
   header .large-menu .search .rex-show-menu {
     margin-top: 15px;
@@ -5103,7 +5106,7 @@ footer .rex-block .copyright p a:hover {
   .rex-about .select-col .rex-slide-angle p {
     color: #ffffff;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
   }
   .rex-portfolio {
     /* rex-portfolio */
@@ -5232,7 +5235,7 @@ footer .rex-block .copyright p a:hover {
   .rex-dinner-menu .select-row .dinner-manu-angle .rex-slide-angle p {
     color: #ffffff;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
   }
   .rex-dinner-menu .select-row .select-col {
     float: right;
@@ -5300,7 +5303,7 @@ footer .rex-block .copyright p a:hover {
     font-weight: 300;
     color: #545454;
     font-size: 16px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     -webkit-transition: all .5s;
     -o-transition: all .5s;
     transition: all .5s;
@@ -5403,7 +5406,7 @@ footer .rex-block .copyright p a:hover {
   .rex-gallery .rex-slide-angle p {
     color: #ffffff;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
   }
   .rex-review {
     /* .rex-review  */
@@ -5719,7 +5722,7 @@ footer .rex-block .copyright p a:hover {
     font-weight: 300;
     color: #545454;
     font-size: 16px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     -webkit-transition: all .5s;
     -o-transition: all .5s;
     transition: all .5s;
@@ -5788,7 +5791,7 @@ footer .rex-block .copyright p a:hover {
     font-weight: 300;
     color: #545454;
     font-size: 16px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     -webkit-transition: all .5s;
     -o-transition: all .5s;
     transition: all .5s;
@@ -5857,7 +5860,7 @@ footer .rex-block .copyright p a:hover {
     font-weight: 300;
     color: #545454;
     font-size: 16px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     -webkit-transition: all .5s;
     -o-transition: all .5s;
     transition: all .5s;
@@ -5926,7 +5929,7 @@ footer .rex-block .copyright p a:hover {
     font-weight: 300;
     color: #545454;
     font-size: 16px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     -webkit-transition: all .5s;
     -o-transition: all .5s;
     transition: all .5s;
@@ -5995,7 +5998,7 @@ footer .rex-block .copyright p a:hover {
     font-weight: 300;
     color: #545454;
     font-size: 16px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     -webkit-transition: all .5s;
     -o-transition: all .5s;
     transition: all .5s;
@@ -6216,6 +6219,7 @@ footer .rex-block .copyright p a:hover {
   footer .rex-block .rex-opening-hours .rex-offers ul li {
     padding: 0 10px 10px;
     display: inline-block;
+    max-width: 25%;
   }
   footer .rex-block .rex-opening-hours .rex-offers ul li button {
     vertical-align: bottom;
@@ -6420,7 +6424,7 @@ footer .rex-block .copyright p a:hover {
     padding: 0;
     color: #fff;
     font-size: 18px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 30px;
   }
   .rex-about .rex-slide-angle p sub {
@@ -6506,7 +6510,7 @@ footer .rex-block .copyright p a:hover {
     padding: 0;
     color: #fff;
     font-size: 18px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 30px;
   }
   .rex-dinner-menu .rex-block .rex-slide-angle p sub {
@@ -6594,7 +6598,7 @@ footer .rex-block .copyright p a:hover {
   }
   .rex-dinner-menu .rex-slide-angle p {
     color: #fff;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 18px;
   }
   .rex-dinner-menu .rex-slide-angle .triangle-up {
@@ -7357,7 +7361,7 @@ footer .rex-block .copyright p a:hover {
   }
   footer .rex-block .rex-newsletter .rex-newsletter-section {
     padding: 15px;
-    margin-bottom: 53px;
+    //margin-bottom: 53px;
     min-height: 220px;
   }
   footer .rex-block .rex-newsletter .rex-newsletter-section .rex-newsletter-contant {
@@ -7385,4 +7389,8 @@ footer .rex-block .copyright p a:hover {
     text-decoration: none;
     font-size: 16px;
   }
+}
+
+.rex-menu-list.item img {
+    max-width: 100%;
 }
