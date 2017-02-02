@@ -53,7 +53,7 @@
         <div class="row small-menu nav-container select-row nav-background-color">
             <div class="col-md-2 col-sm-12 no-padding rex-logo select-col background-color">
                 <!-- Our logo -->
-                <a href="index.html">
+                <a href="index.php">
                     <img class="small-logo small-only" src="img/logo/logomali.png" alt="Logo Mali">
                     <img class="large-logo large-only hidden-xs" src="img/logo/logoveliki1.png" alt="Logo Veliki">
                 </a>
@@ -78,7 +78,7 @@
                 <!-- large-menu > bottom menu list -->
                 <div class="rex-main-inline-manu large-only">
                     <ul id="navigation" class="slimmenu rex-navigatin">
-                        <li><a href="index.html">Početna</a></li>
+                        <li><a href="index.php">Početna</a></li>
                         <li><a href="#onama">O nama</a></li>
                         <li><a href="#novmeni">Novi meni</a></li>
                         <li><a href="#meni">Meni</a></li>
@@ -105,7 +105,7 @@
             <div class="col-md-2 col-lg-2 col-sm-12 rex-block hidden-xs hidden-md visible-lg wow fadeInLeft">
                     <!-- contact-info -->
                 <div class="rex-contact-info">
-                    <a href="index.html"><img src="img/logo/logofuter.png" alt="Logo Square Five"></a>
+                    <a href="index.php"><img src="img/logo/logofuter.png" alt="Logo Square Five"></a>
                     <p class="home-address">Trg Republike 5, <br/>11000 Beograd</p>
                     <p class="phone-number">telefon:  <a href="tel:+3810645555005" target="_top">+381 (064) 555 5005</a>
                     <p class="email-address"><a href="mailto:office@squarefivebar.rs" target="_top">email: office@squarefivebar.rs</a></p>
@@ -158,7 +158,7 @@
             <div class="col-md-12 col-sm-12 rex-block visible-xs visible-sm visible-md hidden-lg">
                 <!-- contact-info -->
                 <div class="rex-contact-info">
-                    <a href="index.html"><img src="img/logo/logofuter.png" alt=""></a>
+                    <a href="index.php"><img src="img/logo/logofuter.png" alt=""></a>
                     <p class="home-address">Trg Republike 5, <br/> 11000 Beograd</p>
                     <p class="phone-number">telephone:  <a href="tel:+381064555500" target="_top">+381 (064) 555 5005</a>
                     <p class="email-address"><a href="mailto:email@yourdomain.com" target="_top">email: office@squarefivebar.rs</a></p>
